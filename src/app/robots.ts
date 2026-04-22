@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://calculadora-juros-compostos.vercel.app/sitemap.xml",
+    sitemap: "https://calculadora-juros-compostos-vert.vercel.app/sitemap.xml",
   };
 }

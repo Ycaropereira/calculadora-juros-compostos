@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://calculadora-juros-compostos.vercel.app"),
+  metadataBase: new URL("https://calculadora-juros-compostos-vert.vercel.app"),
   title: "Calculadora de Juros Compostos",
   description:
     "Calculadora online de juros compostos para simular investimentos com aportes mensais e visualizar a evolução do patrimônio.",

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://calculadora-juros-compostos.vercel.app";
+  const baseUrl = "https://calculadora-juros-compostos-vert.vercel.app";
 
   return [
     {
