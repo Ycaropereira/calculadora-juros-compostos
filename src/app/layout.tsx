@@ -58,7 +58,35 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
-        {children}
+        <header className="border-b border-black/5 bg-white/80 backdrop-blur-sm">
+          <div className="mx-auto w-full max-w-6xl px-4 py-4">
+            <nav className="flex items-center justify-between">
+              <Link 
+                href="/" 
+                className="text-xl font-bold text-zinc-900 hover:text-blue-700 transition-colors"
+              >
+                Juros Compostos
+              </Link>
+              <div className="flex items-center gap-6 text-sm">
+                <Link href="/" className="text-zinc-700 hover:text-blue-700 transition-colors">
+                  Calcular
+                </Link>
+                <Link href="/blog" className="text-zinc-700 hover:text-blue-700 transition-colors">
+                  Blog
+                </Link>
+                <Link href="/sobre" className="text-zinc-700 hover:text-blue-700 transition-colors">
+                  Sobre
+                </Link>
+                <Link href="/contato" className="text-zinc-700 hover:text-blue-700 transition-colors">
+                  Contato
+                </Link>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <main className="flex-1">
+          {children}
+        </main>
         <footer className="mt-auto border-t border-black/5 bg-white">
           <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-6 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm text-zinc-600">
